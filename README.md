@@ -27,3 +27,5 @@ The analysis is executed sequentially through the following scripts:
 *   **`7_Tuning.R`**: Executes Hyperparameter Optimization using Grid Search with 3-fold Cross-Validation.
 *   **`8_VISUALIZING.R`**: Generates ML comparison tables as well as the Tuning Outcome Visualisation
 *   **`9_Driver_Analysis.R`**: Performs the "Integrated Driver Analysis".
+
+Note: The reticulate package requires a local Python installation with nltk installed.
