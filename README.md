@@ -23,7 +23,7 @@ The analysis is executed sequentially through the following scripts:
 *   **`5_Pre_Processing.R`**: Prepares the modeling dataset by applying **SMOTE** (Synthetic Minority Over-sampling Technique) to handle class imbalance and scaling numerical features. 5.1 and 5.2 Generates exploratory visualizations, including the semantic Word Cloud and Pearson Correlation Matrix.
 
 ### **Phase 3: Machine Learning & Evaluation**
-*   **`6_ML.R`**: Trains baseline classifiers (Logistic Regression, Naive Bayes, KNN, SVM, Decision Trees, Random Forest, Boosting, Neural Networks).
+*   **`6_ML.R`**: Trains baseline classifiers (All 9 supervised models).
 *   **`7_Tuning.R`**: Executes Hyperparameter Optimization using Grid Search with 3-fold Cross-Validation to maximize the Gini Coefficient.
 *   **`8_VISUALIZING.R`**: Generates ML comparison tables as well as the Tuning Outcome Visualisation
 *   **`9_Driver_Analysis.R`**: Performs the "Integrated Driver Analysis," extracting Feature Importance from the Random Forest model and mapping it against directional coefficients.
